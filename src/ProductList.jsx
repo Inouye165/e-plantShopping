@@ -308,7 +308,7 @@ function ProductList(props) {
     dispatch(addItem(plant));
     setAddedToCart((prevState) => ({
       ...prevState,
-      [plant.name]: true, // Set the product name as key and value as true to indicate it's added to cart
+      [plant.name]: true, 
     }));
   };
 
@@ -331,7 +331,7 @@ function ProductList(props) {
             />
             <a href="/" style={{ textDecoration: "none" }}>
               <div>
-                <h3 style={{ color: "white" }}>Hassan's Paradise Nursery</h3>
+                <h3 style={{ color: "red" }}>Paradise Nursery</h3>
                 <i style={{ color: "white" }}>Where Green Meets Serenity</i>
               </div>
             </a>
